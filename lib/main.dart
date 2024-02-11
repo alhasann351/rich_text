@@ -89,6 +89,78 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
           ),
+          RichText(
+            text: TextSpan(
+              style: GoogleFonts.caveat(
+                fontSize: 30,
+                color: Colors.purple,
+                fontWeight: FontWeight.bold,
+              ),
+              children: const [
+                TextSpan(
+                  text: 'Future ',
+                  style: TextStyle(
+                    fontSize: 32,
+                    color: Colors.lightGreen,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                TextSpan(
+                  text: 'Flutter Apps ',
+                  style: TextStyle(
+                    fontSize: 35,
+                    color: Colors.orange,
+                    fontStyle: FontStyle.normal,
+                  ),
+                ),
+                TextSpan(
+                  text: 'Developer',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF211C6A),
+                    fontStyle: FontStyle.normal,
+                    fontSize: 40,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          RichText(
+            text: TextSpan(
+              style: GoogleFonts.fahkwang(
+                //fontSize: 15,
+                color: Colors.purple,
+                fontWeight: FontWeight.bold,
+              ),
+              children: const [
+                TextSpan(
+                  text: 'Future ',
+                  style: TextStyle(
+                    fontSize: 32,
+                    color: Colors.pinkAccent,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                TextSpan(
+                  text: 'Flutter Apps ',
+                  style: TextStyle(
+                    fontSize: 35,
+                    color: Colors.greenAccent,
+                    fontStyle: FontStyle.normal,
+                  ),
+                ),
+                TextSpan(
+                  text: 'Developer',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF211C6A),
+                    fontStyle: FontStyle.normal,
+                    fontSize: 35,
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
